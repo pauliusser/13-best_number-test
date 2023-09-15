@@ -1,13 +1,25 @@
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: cursive;
 }
 
 button {
   all: unset;
-  background-color: blue;
-  height: 200px;
+  background-color: rgb(25, 25, 77);
+  height: 50px;
   width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2rem;
+}
+.wrapper {
+  display: flex;
+  gap: 10px;
 }
